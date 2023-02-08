@@ -14,10 +14,10 @@ namespace SnakeEater
         {
             wallList = new List<Figure>();
 
-            HorizontalLine TopLine = new HorizontalLine(0, 78, 0, '+');
-            HorizontalLine BotLine = new HorizontalLine(0, 78, 24, '+');
+            HorizontalLine TopLine = new HorizontalLine(0, 38, 0, '+');
+            HorizontalLine BotLine = new HorizontalLine(0, 38, 24, '+');
             VerticalLine LeftLine = new VerticalLine(0, 24, 0, '+');
-            VerticalLine RightLine = new VerticalLine(0, 24, 78, '+');
+            VerticalLine RightLine = new VerticalLine(0, 24, 38, '+');
 
             wallList.Add(TopLine);
             wallList.Add(BotLine);

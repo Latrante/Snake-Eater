@@ -17,10 +17,10 @@ namespace SnakeEater
         
         static void Main(string[] args)
         {
-            Console.SetWindowSize(80, 25);
-            Console.SetBufferSize(80, 25);
+            Console.SetWindowSize(40, 25);
+            Console.SetBufferSize(40, 25);
 
-            Walls walls = new Walls(80, 25);
+            Walls walls = new Walls(40, 25);
             walls.Draw();
 
             Point p = new Point(6, 5, '*');
@@ -29,10 +29,11 @@ namespace SnakeEater
             snake.Draw();
             snake.Move();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '@');
+            FoodCreator foodCreator = new FoodCreator(40, 25, '@');
             Point food = foodCreator.CreateFood();
             food.Draw();
 
+            int speed = 200;
             while (true)
             {
                 if(walls.IsHit(snake) || snake.IsHitTail())
@@ -44,10 +45,13 @@ namespace SnakeEater
                 {
                     food = foodCreator.CreateFood();
                     food.Draw();
+
+                    if (speed > 30)
+                    speed -= 10;
                 }
                 else snake.Move();
 
-                Thread.Sleep(200);
+                Thread.Sleep(speed);
 
                 if (Console.KeyAvailable)
                 {
