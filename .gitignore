@@ -16,3 +16,12 @@ obj/Debug/SnakeEater.pdb
 Properties/AssemblyInfo.cs
 SnakeEater.csproj
 .vs/Snake-Eater/FileContentIndex/97ce88d1-a4e9-4718-8c64-b92e0e9b42c5.vsidx
+.vs/Snake-Eater/FileContentIndex/read.lock
+.vs/slnx.sqlite
+.vs/Snake-Eater/v17/.suo
+.vs/SnakeEater/FileContentIndex/6b95e6fb-602e-44fc-8286-125024f49753.vsidx
+*.lock
+.vs/SnakeEater/v17/.suo
+*.json
+obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+obj/Release/SnakeEater.csproj.AssemblyReference.cache
