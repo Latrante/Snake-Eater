@@ -11,10 +11,6 @@ namespace SnakeEater
 {
     internal class Program
     {
-
-        
-    
-        
         static void Main(string[] args)
         {
             Console.SetWindowSize(40, 25);
@@ -27,7 +23,6 @@ namespace SnakeEater
 
             Snake snake = new Snake(p, 3, Direction.RIGHT);
             snake.Draw();
-            snake.Move();
 
             FoodCreator foodCreator = new FoodCreator(40, 25, '@');
             Point food = foodCreator.CreateFood();
