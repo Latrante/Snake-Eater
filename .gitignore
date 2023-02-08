@@ -25,3 +25,5 @@ SnakeEater.csproj
 *.json
 obj/Release/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
 obj/Release/SnakeEater.csproj.AssemblyReference.cache
+.vs/SnakeEater/FileContentIndex/ac26a2e0-466f-4348-b28d-5c1bb25c425c.vsidx
+*.vsidx
