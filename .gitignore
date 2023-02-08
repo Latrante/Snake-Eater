@@ -1,0 +1,17 @@
+
+App.config
+bin/Debug/SnakeEater.exe
+bin/Debug/SnakeEater.exe.config
+bin/Debug/SnakeEater.pdb
+obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+obj/Debug/_IsIncrementalBuild
+obj/Debug/DesignTimeResolveAssemblyReferences.cache
+obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/Debug/SnakeEater.csproj.AssemblyReference.cache
+obj/Debug/SnakeEater.csproj.CoreCompileInputs.cache
+obj/Debug/SnakeEater.csproj.FileListAbsolute.txt
+obj/Debug/SnakeEater.csproj.SuggestedBindingRedirects.cache
+obj/Debug/SnakeEater.exe
+obj/Debug/SnakeEater.pdb
+Properties/AssemblyInfo.cs
+SnakeEater.csproj
